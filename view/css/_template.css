@@ -1,0 +1,205 @@
+html
+{
+    overflow: hidden;
+    height: 100%;
+}
+
+main
+{
+    position: relative;
+
+    overflow-y: auto;
+    overflow-x: auto;
+
+    height: 100%;
+    margin-top: 80px;
+}
+
+body
+{
+    margin: 0;
+    padding: 0;
+      
+    height: 100%;
+
+    background: white;
+    background-image: url("../../ressources/images/website/wp.jpg");
+    background-size:cover;
+
+
+    display: flex;
+    flex-direction: column;
+    justify-items: center;
+
+    box-sizing: border-box;
+    
+}
+
+header
+{
+    background: #020202;
+    height: 80px;
+    z-index: 1;
+
+    box-shadow: 3px 0px 20px black;
+    width: 100%;
+
+    position: fixed;   
+    top: 0;
+
+    display: flex;
+
+}
+
+#header_titre
+{
+    text-decoration: none;
+    color : #ecede8;
+
+    text-align: center;
+}
+
+nav
+{
+    display: flex;
+    justify-content:space-between;
+}
+
+.header_nav_button
+{
+    color : #ecede8;
+    background-color: #020202;
+
+    text-decoration: none;
+    text-align: center;
+
+    transition: 0.2s;
+    border: 0px solid #020202;
+    padding: 30px;
+
+}
+
+.header_nav_button:hover
+{
+    background-color: #b2b099;
+    border: 0 solid #b2b099;
+    color: #020202;
+}
+
+#header_search
+{
+    position: fixed;
+    right: 1%;
+    padding: 10px;
+}
+
+
+
+#search_query
+{
+    background: #b2b099;
+    color: #020202;
+
+    border : none;    
+    outline: none;
+    float: left;
+    font-size: 16px;
+    line-height: 40px;
+    font-weight: bold;
+
+    height: 60px;
+    width: 300px;
+    padding: 0 6px;
+}
+
+.btn_search
+{
+    background: #b2b099;
+    color: #020202;
+
+    float: right;
+    border: none;
+    width: 60px;
+    height: 60px;
+
+    display: flex;
+    justify-content: center;
+    align-items: center;
+
+    font-size: 16px;
+
+    cursor: pointer;
+    text-decoration: none;
+    
+    transition: 0.2s;
+}
+
+.btn_search:hover
+{
+    background: #020202;
+    color: #b2b099;
+}
+
+footer
+{
+    position: -webkit-sticky;
+    position: sticky;
+
+    display: flex;
+    flex-wrap: nowrap;
+    flex-direction: row;
+
+    width: 100%;
+    bottom: 0;
+    
+    padding: 3px 0;
+
+    background-color: black;
+    color: #ecede8;
+
+}
+
+.dropdown_content
+{
+    display: none;
+    position: relative;
+
+    top: 31.5px;
+    left: initial;
+
+    z-index: 2;
+}
+
+.header_type_button
+{
+    width:100%;
+}
+
+.dropdown_content button
+{
+    display: block;
+}
+
+#header_titre
+{
+    display: none;
+}
+
+.show
+{
+    display: block;
+}
+
+#connect1
+{
+    display: none;
+}
+
+#connect2
+{
+    display: none;
+}
+#connect3
+{
+    display: none;
+}

@@ -1,0 +1,96 @@
+.item_ticket
+{
+    position: relative;  
+
+    margin: 5px;
+    padding-left: 7px;
+    padding-right: 7px;
+
+    height: min-content;
+    width: min-content;
+
+    background: #020202;
+    color: #b2b099;
+
+    border-radius: 10px/10px;
+
+    transition: 0.2s;
+
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+
+    text-align: center;
+
+    
+}
+
+
+.item_ticket:hover
+{
+    background: #b2b099;
+    color: #020202;
+}
+
+.item_pic
+{
+    padding-top: 10px;
+
+    height: min-content;
+    width: min-content;
+}
+
+.item_ticket > p
+{
+    font-size:larger;
+}
+.item_modal
+{
+
+    background: #020202;
+    color: #b2b099;
+    border: 2px black outset;
+
+    overflow: auto;
+
+    width: min-content;
+
+    height:min-content;
+
+    transition: 0.2s;
+}
+
+.item_modal::backdrop
+{
+    background: #020202;
+    opacity: 60%;
+}
+
+.item_btn_command
+{
+    background: #b2b099;
+    color: #020202;
+
+    text-decoration: none;
+    text-align: center;
+
+    border: 2px black outset;
+
+    justify-content: center;
+    
+    width: auto;
+    height: auto;
+
+    position: relative;
+    
+    padding: 10px;
+    margin-bottom: 10px;
+
+    transition: 0.4s;
+}
+
+.item_btn_command:hover
+{
+    background: #d0cda7;
+    color: #020202;
+}

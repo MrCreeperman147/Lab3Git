@@ -1,0 +1,18 @@
+.home_content
+{
+    display: flex;
+    justify-content: center;
+
+    flex-wrap: wrap;
+
+    overflow-x: auto;
+}
+
+.home_title
+{
+    position: relative;
+    display: flex;
+    justify-content: center;
+
+    color: #b2b099;
+}
