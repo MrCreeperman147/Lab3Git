@@ -10,7 +10,6 @@
             {
                 $result = EntityManager::prepare($query);
                 $result->execute();
-                $retour = $result->fetchAll(PDO::FETCH_ASSOC);
 
                 $providers = array();
 

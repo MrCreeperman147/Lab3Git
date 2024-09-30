@@ -219,7 +219,7 @@
                         if($now > $tokenValidity)
                         {
                             $tokenValidity = $now;
-                            $date = date('Y-m-d', $now);
+                            #$date = date('Y-m-d', $now);
 
                             self::$userId = $arr['id'];
                             self::$codename = $arr['codename'];

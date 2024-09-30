@@ -30,7 +30,7 @@
 
 
                     #Recupère le manufacurer et le type
-                    $manufacturer = ManufacturerManager::getManufacturerById($arr['id_manufacturer']); #pour de future updates
+                    #$manufacturer = ManufacturerManager::getManufacturerById($arr['id_manufacturer']); #pour de future updates
                     $typeEquipement = TypeEquipementManager::getTypeEquipementById($arr['id_type']);
                     
                     #creer l'objet
@@ -77,7 +77,7 @@
                 while($arr = $result->fetch()) #pour chaque ligne
                 {
                     #Recupère le manufacurer et le type
-                    $manufacturer = ManufacturerManager::getManufacturerById($arr['id_manufacturer']);
+                    #$manufacturer = ManufacturerManager::getManufacturerById($arr['id_manufacturer']);
                     $typeEquipement = TypeEquipementManager::getTypeEquipementById($arr['id_type']);
 
                     #Creer l'objet
